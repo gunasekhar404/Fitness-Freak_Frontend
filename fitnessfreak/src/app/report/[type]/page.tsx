@@ -1,9 +1,10 @@
 "use client"
 import React from 'react'
 import { LineChart } from '@mui/x-charts/LineChart';
+import {  } from '@mui/x-charts/ChartsXAxis';
 import './ReportPage.css'
-import { AiFillEdit } from 'react-icons/ai';
-import CalorieIntakePopup from '@/components/ReportFormPopup/CalorieIntake/CalorieIntakePopup';
+import { AiFillEdit } from 'react-icons/ai'
+import CaloriIntakePopup from '@/components/ReportFormPopup/CalorieIntake/CalorieIntakePopup';
 
 const page = () => {
     const color = '#ffc20e'
@@ -19,42 +20,42 @@ const page = () => {
 
         let temp = [
             {
-                date: 'Tue Mar 19 2024 20:30:30 GMT+0530 (India Standard Time)',
+                date: 'Thu Sep 28 2023 20:30:30 GMT+0530 (India Standard Time)',
                 value: 2000,
                 unit: 'kcal'
             },
             {
-                date: 'Mon Mar 18 2024 20:30:30 GMT+0530 (India Standard Time)',
+                date: 'Wed Sep 27 2023 20:30:30 GMT+0530 (India Standard Time)',
                 value: 2500,
                 unit: 'kcal'
             },
             {
-                date: 'Sun Mar 17 2024 20:30:30 GMT+0530 (India Standard Time)',
+                date: 'Tue Sep 26 2023 20:30:30 GMT+0530 (India Standard Time)',
                 value: 2700,
                 unit: 'kcal'
             },
             {
-                date: 'Sat Mar 16 2024 20:30:30 GMT+0530 (India Standard Time)',
+                date: 'Mon Sep 25 2023 20:30:30 GMT+0530 (India Standard Time)',
                 value: 3000,
                 unit: 'kcal'
             },
             {
-                date: 'Fri Mar 15 2024 20:30:30 GMT+0530 (India Standard Time)',
+                date: 'Sun Sep 24 2023 20:30:30 GMT+0530 (India Standard Time)',
                 value: 2000,
                 unit: 'kcal'
             },
             {
-                date: 'Thu Mar 14 2024 20:30:30 GMT+0530 (India Standard Time)',
+                date: 'Sat Sep 23 2023 20:30:30 GMT+0530 (India Standard Time)',
                 value: 2300,
                 unit: 'kcal'
             },
             {
-                date: 'Wed Mar 13 2024 20:30:30 GMT+0530 (India Standard Time)',
+                date: 'Fri Sep 22 2023 20:30:30 GMT+0530 (India Standard Time)',
                 value: 2500,
                 unit: 'kcal'
             },
             {
-                date: 'Tue Mar 12 2024 20:30:30 GMT+0530 (India Standard Time)',
+                date: 'Thu Sep 21 2023 20:30:30 GMT+0530 (India Standard Time)',
                 value: 2700,
                 unit: 'kcal'
             },
@@ -210,7 +211,7 @@ const page = () => {
             {
                 showCalorieIntakePopup &&
 
-                <CalorieIntakePopup setShowCalorieIntakePopup={setShowCalorieIntakePopup} />
+                <CaloriIntakePopup setShowCalorieIntakePopup={setShowCalorieIntakePopup} />
 
             }
         </div>
